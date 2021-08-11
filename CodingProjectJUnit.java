@@ -10,7 +10,7 @@ class CodingProjectJUnit {
 	void test() {
 		
 		//switch for choosing class to test
-		 int testnum = 3;
+		 int testnum = 0;
 		 
 	        switch (testnum) {
 	            case 1:  
@@ -29,7 +29,9 @@ class CodingProjectJUnit {
 	        	c.ConsecutivePrime(2345); //finds
 	                     break;
 	            case 4:  
-	            	
+	            	//https://projecteuler.net/problem=160
+	            	FactorialTrailingDigits d = new FactorialTrailingDigits();
+	            	d.FactorialTrailing(13);
 	                     break;
 	            case 5:  
 
