@@ -36,7 +36,7 @@ class CodingProjectJUnit {
 	            case 5:  
 			//https://projecteuler.net/problem=148
 	            	PascalsTriangle e = new PascalsTriangle();
-	            	e.pascalGenerator(30);
+	            	e.pascalGenerator(15, 7); //1st row count, 2nd dividor num
 	                     break;
 	            case 6:  
 
