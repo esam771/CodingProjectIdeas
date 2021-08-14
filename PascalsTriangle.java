@@ -2,7 +2,7 @@ package CodingProjects;
 
 public class PascalsTriangle {
 	
-	public void pascalGenerator(int rows)
+	public void pascalGenerator(int rows, int num)
 	{
 		//Creates 2d array and adds pascal's values
 		
@@ -21,6 +21,7 @@ public class PascalsTriangle {
 		}
 		
 		pascalPrinter(pascal); //sends array to printing method
+		divisorScanner(pascal, num); //finds nums divisible by num
 	}
 	
 	
@@ -61,5 +62,21 @@ public class PascalsTriangle {
 		}
 		return pascal;
 	}
-
+	
+	public void divisorScanner(int[][] pascal, int num)
+	{
+		int x = 0;
+		
+		for(int i = 0; i < pascal.length; i++)
+		{
+			for(int j = 0; j < pascal.length; j++)
+			{
+				if(pascal[i][j] != 0 && pascal[i][j] % num == 0)
+				{
+					x++;
+				}
+			}
+		}
+		System.out.println("\n" + x + " Numbers are divisible by " + num);
+	}
 }
