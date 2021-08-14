@@ -34,7 +34,9 @@ class CodingProjectJUnit {
 	            	d.FactorialTrailing(13);
 	                     break;
 	            case 5:  
-
+			//https://projecteuler.net/problem=148
+	            	PascalsTriangle e = new PascalsTriangle();
+	            	e.pascalGenerator(30);
 	                     break;
 	            case 6:  
 
