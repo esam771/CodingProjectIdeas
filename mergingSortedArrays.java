@@ -14,6 +14,8 @@ public class mergingSortedArrays {
 
 	 public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 	        
+		 //https://leetcode.com/problems/median-of-two-sorted-arrays/
+		 
 	        int i = 0; //updated index of nums1
 	        int j = 0; //updated index of nums2
 	        int x = 0; //updated index of final array, arr[]
