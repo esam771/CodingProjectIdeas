@@ -5,8 +5,6 @@ public class CollatzConjectureTest {
 	/* Can use to test Collatz Conjecture or '3x+1 problem'
 	 * which will tell you how many loops before
 	 * you reach an eventual 1,4,2, repeating loop. 
-	 * No number that avoids this ending has been found and
-	 * the problem is generally regarded as a waste of time.
 	 */
 	
 	int loops = 0;
